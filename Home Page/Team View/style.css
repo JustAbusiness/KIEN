@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+.container {
+    text-align: center;
+    background-image: url("./images/future-work-digital-technology-economy.jpg");
+    background-size:contain;
+    background-repeat: none;
+    
+
+}
+
+
+.header {
+    padding-top: 50px;
+    color:rgb(240, 251, 247);
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    line-height: 60px;
+ 
+
+}
+
+
+.sub-container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 48px 0;
+    display: flex;
+    flex-wrap:wrap-reverse;
+    justify-content: center;
+    background: rgb(248, 249, 250);
+    border-radius: 15px;
+    
+}
+
+
+.teams {
+    margin: 30px;
+    padding:30px;
+    max-width: 40%;
+    cursor: pointer;
+    transition: 0.4s;
+   
+
+}
+
+.teams:hover {
+    background: rgb(31, 193, 131);
+    border-radius: 10px;
+}
+
+
+.name {
+    padding: 12px;
+    font-weight: bold;
+    font-size:1.5rem;
+    text-transform: uppercase;
+
+}
+
+
+.minor {
+    font-style:italic;
+    color:rgb(15, 15, 212);
+    font-size:1.2rem;
+}
+
+
+.about {
+    margin-top: 10px;
+    font-weight: lighter;
+    color:rgb(59, 57, 54);
+    font-size: 1.5rem;
+}
+
+
+.social-links {
+    margin: 20px 20px;
+}
+
+
+.social-links a {
+    display: inline-block;
+    width:40px;
+    height:40px;
+    transition: .4s;
+    
+}
+
+
+.social-links a i {
+    font-size: 1.5rem;
+    color:#444;
+    
+}
+
+
+.social-links a i:hover {
+    transform: scale(1.5);
+}
